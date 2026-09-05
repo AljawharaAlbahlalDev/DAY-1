@@ -72,6 +72,20 @@ source .venv/bin/activate
 After activation, your terminal should show `(.venv)`.
 
 Upgrade pip and install the course dependencies:
+- transformers
+- datasets
+- sentence-transformers
+- spacy
+- camel-tools
+- scikit-learn
+- seqeval
+- faiss-cpu
+- optimum[onnxruntime]
+- fastapi
+- uvicorn
+- pytest
+- pandas
+- matplotlib
 
 ```bash
 python -m pip install --upgrade pip
