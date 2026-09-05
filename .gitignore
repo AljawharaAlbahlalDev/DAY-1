@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+# Generated model/index artefacts: keep directory, not large binaries
+artifacts/*
+!artifacts/.gitkeep
+
+# Optional generated data
+data/processed/
