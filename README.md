@@ -189,13 +189,13 @@ If `doctor.py` reports a failed check, fix it before starting the lab or ask the
 
 During Lab 1 you will:
 
-1. Inspect `data/raw/bayan_raw_sample.csv` and document text defects in `NOTES.md`.
-2. Implement the versioned preprocessing contract in `src/bayan/preprocessing/`.
-3. Pass the preprocessing and PII tests.
-4. Build sentence segmentation.
-5. Run the tokenizer audit and record evidence.
-6. Document the tokenizer/model decision in `DECISIONS.md`.
-7. Commit and push your work to your own GitHub repository.
+1. Inspect `data/raw/bayan_raw_sample.csv` and document at least six text-defect classes in `NOTES.md`.
+2. Implement `normalize()` and `mask_pii()` in the versioned preprocessing module under `src/bayan/preprocessing/`.
+3. Pass the golden preprocessing tests and verify 100% PII recall on the provided fixture.
+4. Build and validate the spaCy sentence-segmentation pipeline.
+5. Audit four candidate tokenizers and record fertility and p95 sequence-length results by language.
+6. Document the tokenizer/model decision with evidence in `DECISIONS.md#tokenizer`.
+7. Commit and push your Lab 1 work to your own GitHub repository.
 
 At the end of the lab:
 
